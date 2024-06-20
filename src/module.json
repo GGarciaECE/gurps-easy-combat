@@ -2,22 +2,23 @@
   "id": "gurps-easy-combat",
   "title": "GURPS Easy Combat",
   "description": "",
+  "authors": [
+    {
+      "name": "danielrab"
+    },
+    {
+      "name": "nedorus"
+    }
+  ],
   "version": "0.0.4",
-  "author": "danielrab",
-	"compatibility": {
-		"minimum": "10",
-		"verified": "11"
-	},
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
   "scripts": [],
   "esmodules": ["module/gurps-easy-combat.js"],
   "styles": ["styles/gurps-easy-combat.css"],
   "packs": [],
-  "dependencies": [
-    {
-      "name": "socketlib",
-      "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/v1.0.9/module.json"
-    }
-  ],
   "socket": true,
   "url": "https://github.com/danielrab/gurps-easy-combat",
   "manifest": "https://raw.githubusercontent.com/danielrab/gurps-easy-combat/master/src/module.json",
@@ -26,6 +27,20 @@
   "readme": "https://github.com/danielrab/gurps-easy-combat/blob/master/README.md",
   "bugs": "",
   "changelog": "",
-  "system": ["gurps"],
+  "relationships": [
+    {
+      "system": [
+        "gurps"
+      ]
+    },
+    {
+      "requires": [
+        {
+          "id": "socketlib",
+          "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/v1.0.13/module.json"
+        }
+      ]
+    }
+  ],
   "library": false
 }
