@@ -1,7 +1,7 @@
 {
   "id": "gurps-easy-combat",
   "title": "GURPS Easy Combat",
-  "description": "",
+  "description": "ffqlsdk",
   "authors": [
     {
       "name": "danielrab"
@@ -20,8 +20,8 @@
   "styles": ["styles/gurps-easy-combat.css"],
   "packs": [],
   "socket": true,
-  "url": "https://github.com/danielrab/gurps-easy-combat",
-  "manifest": "https://raw.githubusercontent.com/danielrab/gurps-easy-combat/master/src/module.json",
+  "url": "https://github.com/GGarciaECE/gurps-easy-combat",
+  "manifest": "https://raw.githubusercontent.com/GGarciaECE/Gurps-easy-combat/master/src/module.json",
   "download": "https://github.com/danielrab/gurps-easy-combat/releases/latest/download/dist.zip",
   "license": "",
   "readme": "https://github.com/danielrab/gurps-easy-combat/blob/master/README.md",
